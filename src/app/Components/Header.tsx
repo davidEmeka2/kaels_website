@@ -9,7 +9,6 @@ import { motion, useAnimate, useScroll, useMotionValueEvent } from 'motion/react
 
 function Header() {
 
-  const [hamburg, setHamburg] = useState(100)
 
 
  const [scope, animate] = useAnimate()

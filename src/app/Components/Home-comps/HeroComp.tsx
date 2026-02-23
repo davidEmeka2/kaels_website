@@ -3,7 +3,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Marquee from 'react-fast-marquee'
-import { motion } from 'motion/react'
+
 
 
 function HeroComp() {
@@ -71,7 +71,7 @@ function HeroComp() {
 
       <div className='im'> <p
     
-      >I'M</p> </div>
+      >I&apos;m happy</p> </div>
 
      
 

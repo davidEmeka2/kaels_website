@@ -4,7 +4,7 @@ import { motion } from 'motion/react'
 import React, { useEffect, useState } from 'react'
 import SelectedWorksHeader from './SelectedWorksHeader'
 import Image from 'next/image'
-import { animate } from 'motion'
+
 
 
 

@@ -1,6 +1,6 @@
 "use client"
 
-import { motion, useMotionValue, useScroll, useTransform } from 'motion/react'
+import { motion, useScroll, useTransform } from 'motion/react'
 import React, { useEffect, useRef, useState } from 'react'
 import Image from 'next/image'
 
