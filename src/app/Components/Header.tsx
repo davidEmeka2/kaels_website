@@ -11,8 +11,6 @@ function Header() {
 
 
 
- const [scope, animate] = useAnimate()
-
  const [goingUp, setGoingUp] = useState(0)
 
 
@@ -43,7 +41,7 @@ function Header() {
     
     }}
 
-    ref={scope}
+   
 
     initial={{y:0}}
     animate={{y:goingUp, transition:{duration:0.3, ease:"easeInOut"}}}
