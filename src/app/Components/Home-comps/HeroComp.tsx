@@ -8,9 +8,11 @@ import Marquee from 'react-fast-marquee'
 
 function HeroComp() {
 
-
+  const im = "I'm"
 
   return (
+
+
    <>
    <section className='heroSection'>
 
@@ -71,7 +73,7 @@ function HeroComp() {
 
       <div className='im'> <p
     
-      >I&apos;m</p> </div>
+      >{im}</p> </div>
 
      
 
