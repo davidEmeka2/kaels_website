@@ -2,7 +2,7 @@
 import React, {useState } from 'react'
 import Image from 'next/image'
 import {Squash as Hamburger } from 'hamburger-react'
-import { motion, useAnimate, useScroll, useMotionValueEvent } from 'motion/react'
+import { motion, useScroll, useMotionValueEvent } from 'motion/react'
 
 
 
