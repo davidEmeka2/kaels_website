@@ -1,8 +1,8 @@
 "use client"
-import React, { useEffect, useRef, useState } from 'react'
+import React, {useState } from 'react'
 import Image from 'next/image'
 import {Squash as Hamburger } from 'hamburger-react'
-import { easeInOut, motion, useAnimate, animate, useScroll, useMotionValueEvent } from 'motion/react'
+import { motion, useAnimate, useScroll, useMotionValueEvent } from 'motion/react'
 
 
 

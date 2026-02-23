@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
 import Image from 'next/image'
-import {  easeInOut, motion, useAnimate, animate, scale} from 'motion/react'
+import {motion} from 'motion/react'
 import Marquee from 'react-fast-marquee'
 
 
