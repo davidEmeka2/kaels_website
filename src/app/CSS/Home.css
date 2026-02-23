@@ -1,0 +1,2552 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&display=swap');
+
+
+/* //////////////////////////////////// Hero Section ///////////////////////// */
+
+.heroSection{
+    height: 1000px;
+    width: 100%;
+    /* border: 2px solid blue; */
+}
+
+.buildBoldMarque{
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+
+.marqueeSpacer{
+  width: 50px;
+  height: 50px;
+}
+
+
+
+.helloHeroText{
+    color: #FF5C00;
+    font-size: 250px;
+    padding-left: 50px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 300px;
+    font-weight: 700;
+   
+    
+}
+
+.cormorant-unicase-light {
+    font-family: "Cormorant Unicase", serif;
+    font-weight: 300;
+    font-style:italic;
+  }
+
+  .heroImageFlexer{
+    height: 100px;
+    width: 100%;
+    /* border: 5px solid violet; */
+    display: flex;
+    justify-content:center ;    
+   
+  }
+
+  .heroImage{
+    /* border: 5px solid blue; */
+    height: 600px;
+    width: 400px;
+
+  }
+
+  .heroImageFlexAdjuster{
+    height: 90px;
+    width: 200px;
+    /* border: 5px solid yellowgreen; */
+  }
+
+  .imAndKael{
+      display: flex;
+      height: 200px;
+      width: 100%;
+      padding-left: 50px;
+      padding-right: 50px;
+      /* border: 5px solid black; */
+      justify-content: space-between;
+  }
+
+
+  .im{
+    height: 200px;
+    width: 350px;
+    /* border: 5px solid violet; */
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+  
+  
+  }
+
+  .im p{
+    font-family: "Cormorant Unicase", serif;
+    font-weight: 300;
+    font-style:italic;
+    font-size: 250px;  
+  }
+  
+  
+
+  
+
+  .kaelText{
+    height: 200px;
+    width: 550px;
+    /* border: 5px solid red; */
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
+    color: #FF5C00;
+  }
+
+  .kaelText p{
+    font-size: 250px;
+    font-weight: 700;
+  }
+
+
+/* ///////////////////////// Hero sec responsivity /////////////////////////// */
+
+
+  @media (max-width:1300px) {
+    .im p{
+      font-size: 200px;
+    }
+
+    .im{
+      width: 300px;
+    }
+
+    
+    .kaelText p{
+      font-size: 200px;
+    }
+
+    .kaelText{
+      width: 500px;
+    }
+
+    .imAndKael{
+      padding-left: 30px;
+      padding-right: 0px;
+    }
+
+    .heroImageFlexAdjuster{
+      width: 120px;
+    }
+
+  }
+
+  @media (max-width:1200px) {
+
+    .im{
+      width: 180px;
+    }
+
+    .im p{
+      font-size: 150px;
+    }
+
+    .kaelText p{
+      font-size: 150px;
+    }
+
+    .kaelText{
+      width: 380px;
+    }
+
+  }
+
+  @media (max-width:1000px) {
+
+    .heroSection{
+      height: 1500px;
+    }
+
+
+    .heroImageFlexer{
+      height: 650px;
+    }
+
+    .heroImageFlexAdjuster{
+      display: none;
+    }
+
+    .imAndKael{
+      height: 450px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+      padding-right: 50px;
+      padding-left: 50px;
+    }
+
+    .im{
+      /* border: 5px solid pink ; */
+      height: 200px;
+      width: 100%;
+      justify-content: flex-start;
+      align-items:center ;
+      flex-direction: row;
+
+    }
+
+    .kaelText{
+      width: 100%;
+      /* border: 5px solid navy; */
+      justify-content: flex-end;
+      align-items:center ;
+      flex-direction: row;
+    }
+
+    .im p{
+      font-size: 250px;
+    }
+
+    .kaelText p{
+      font-size: 250px;
+    }
+
+  }
+
+  @media (max-width:850px) {
+    .helloHeroText{
+      font-size: 200px;
+    }
+
+    .im p{
+      font-size: 200px;
+    }
+
+    .kaelText p{
+      font-size: 200px;
+    }
+  }
+
+  @media (max-width:700px) {
+    .helloHeroText{
+      padding-left: 30px;
+    }
+
+    .imAndKael{
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+  }
+
+  @media (max-width:650px) {
+    .helloHeroText{
+      font-size: 150px;
+    }
+
+    .im p{
+      font-size: 150px;
+    }
+
+    .kaelText p{
+      font-size: 150px;
+    }
+  }
+
+  @media (max-width:520px) {
+
+    .heroSection{
+      height: 1200px;
+    }
+
+    .helloHeroText{
+      font-size: 100px;
+      height: 200px;
+    }
+
+    .heroImageFlexer{
+      height: 570px;
+    }
+
+
+    .heroImage{
+      width: 350px;
+      height: 520px;
+      /* border: 5px solid gray; */
+    }
+
+    .imAndKael{
+      height: 280px;
+      gap: 20px;
+    }
+
+    .im{
+      height: 100px;
+    }
+
+    .im p{
+      font-size: 100px;
+    }
+
+    .kaelText{
+      height: 100px;
+    }
+
+
+    .kaelText p{
+      font-size: 100px;
+    }
+  }
+
+  @media (max-width:430px) {
+
+    .heroSection{
+      height: 1100px;
+    }
+
+    .heroImage{
+      width: 300px;
+      height: 450px;
+    }
+
+    .heroImageFlexer{
+      height: 470px;
+    }
+
+    
+  }
+
+  @media (max-width:350px) {
+    .helloHeroText{
+      padding-left: 10px;
+    }
+
+  }
+
+  @media (max-width:330px) {
+    .helloHeroText{
+      padding-left: 0px;
+      margin-left: -5px;
+
+    }
+
+  }
+
+
+
+
+
+/* /////////////////////////////////// End of Hero Section //////////////////////////////////// */
+
+
+
+
+
+
+
+/* ////////////////////////////////// Sub Hero Sec //////////////////////////////////////////// */
+
+
+.subHeroSec{
+  height: 800px;
+  width: 100%;
+  /* border: 5px solid green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.subHeroSec div{
+  font-size: 100px;
+  /* border: 5px solid blue; */
+  width: 100%;
+  height: 160px;
+  position: relative;
+
+}
+
+.webP1{
+  position: absolute;
+  height: 99%;
+  width: 99%;
+  /* border: 5px solid green; */
+  overflow: hidden;
+  white-space: nowrap;
+  opacity: 0.5;
+}
+
+.webP2{
+  position: absolute;
+  font-family: "Cormorant Unicase", serif;
+  font-style: italic;
+  height: 99%;
+  /* border-right: 3px dashed #FF5C00; */
+  width: 0%;
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: #d6d6ce;
+  color: #FF5C00;
+}
+
+
+
+
+
+/* ////////////////////////////// Suh Hero sec responsivity ///////////////////////// */
+
+@media (max-width: 1300px) {
+  .subHeroSec{
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .webP1{
+    font-size: 85px;
+  }
+
+  .webP2{
+    font-size: 85px;
+  }
+}
+
+
+
+@media (max-width: 1200px) {
+  
+  .webP1{
+    font-size: 75px;
+  }
+
+  .webP2{
+    font-size: 75px;
+  }
+}
+
+@media (max-width: 1100px) {
+  
+  .webP1{
+    font-size: 65px;
+  }
+
+  .webP2{
+    font-size: 65px;
+  }
+}
+
+@media (max-width: 950px) {
+
+  .subHeroSec div{
+    height: 120px;
+  }
+  
+  .webP1{
+    font-size: 55px;
+  }
+
+  .webP2{
+    font-size: 55px;
+  }
+}
+
+@media (max-width: 830px) {
+
+
+  
+  .webP1{
+    font-size: 45px;
+  }
+
+  .webP2{
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 720px) {
+
+  .subHeroSec{
+    height: 700px;
+    gap: 50px;
+  }
+
+  .subHeroSec div{
+    height: 100px;
+  }
+  
+  .webP1{
+    font-size: 35px;
+  }
+
+  .webP2{
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 570px) {
+
+  .subHeroSec{
+    height: 600px;
+    gap: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .subHeroSec div{
+    height: 80px;
+  }
+  
+  .webP1{
+    font-size: 30px;
+  }
+
+  .webP2{
+    font-size: 30px;
+  }
+}
+
+@media (max-width:490px) {
+
+  .subHeroSec{
+    height: 500px;
+    gap: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .subHeroSec div{
+    height: 50px;
+  }
+  .webP1{
+    font-size: 20px;
+  }
+
+  .webP2{
+    font-size: 20px;
+  }
+}
+
+
+
+/* ////////////////////////////////// End of Sub Hero Sec //////////////////////////////////////////// */
+
+
+
+
+/* ////////////////////////////////// Selected Works Sec //////////////////////////////////////////// */
+
+
+
+          /* ////////////////////// Selected Works Header /////////////////////////// */
+
+
+
+.selectedWorks{
+  height: 4000px;
+  width: 100%;
+  padding-top:100px;
+  /* border: 5px solid blue; */
+}
+
+.selectedWorksHeader{
+  height: 500px;
+  width: 100%;
+  /* border: 5px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  overflow: hidden;
+
+}
+
+.selectedWorksHeaderFlexer{
+  display: flex;
+  flex-direction: column;
+  height: 99%;
+  width: 1000px;
+  /* border: 5px solid black; */
+  align-items: flex-end;
+  justify-content: center;
+
+}
+
+.selectedH1{
+  font-size: 180px;
+  font-weight: 700;
+  color: #FF5C00;
+  display: flex;
+  
+}
+
+.moveInEffect{
+  overflow: hidden;
+  /* border: 2px solid black; */
+  
+ 
+}
+
+.moveInEffect2{
+  overflow: hidden;
+  
+}
+
+.moveInEffect3{
+  overflow: hidden;
+ 
+ 
+}
+
+
+
+
+
+.worksH1{
+  font-size: 180px;
+  font-family: "Cormorant Unicase", serif;
+  font-style: italic;
+  display: flex;
+}
+
+.worksH1 p{
+  padding: 10px;
+}
+
+
+.selectedWorksHeaderFlexAdjuster{
+  height: 99%;
+  width: 700px;
+  /* border: 5px solid black; */
+}
+
+@media (max-width:970px) {
+
+
+  
+
+  .selectedH1{
+    font-size: 150px;
+  }
+
+  .worksH1{
+    font-size: 150px;
+  }
+
+  
+}
+
+@media (max-width:820px) {
+
+  .selectedWorks{
+    padding-top: 0;
+  }
+
+  .selectedWorksHeader{
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 400px;
+  }
+  
+
+  .selectedH1{
+    font-size: 100px;
+  }
+
+  .worksH1{
+    font-size: 100px;
+  }
+
+
+
+  
+}
+
+@media (max-width:560px) {
+
+  .selectedWorksHeader{
+    height: 300px;
+  }
+  
+
+  .selectedH1{
+    font-size: 70px;
+  }
+
+  .worksH1{
+    font-size: 70px;
+  }
+
+  
+}
+
+
+@media (max-width:420px) {
+
+
+  .selectedWorksHeader{
+    height: 200px;
+  }
+
+
+  .selectedH1{
+    font-size:60px;
+  }
+
+  .worksH1{
+    font-size: 60px;
+  }
+
+  
+}
+
+@media (max-width:345px) {
+
+
+  .selectedWorksHeader{
+    height: 200px;
+  }
+
+
+  .selectedH1{
+    font-size: 50px;
+  }
+
+  .worksH1{
+    font-size: 50px;
+  }
+
+  
+}
+
+
+              /* ////////////////////// End of Selected Works Header /////////////////////////// */
+
+             
+              
+              /* /////////////////////////// first work section ///////////////////////////////////// */
+
+
+.firstWorkRow{
+  height: 900px;
+  width: 100%;
+  /* border: 5px solid green; */
+  display: flex;
+  justify-content: space-evenly;
+  padding-left:50px;
+  padding-right: 50px;
+  padding-top: 100px;
+  overflow: hidden;
+}  
+
+
+
+                        /* //////////////// Work Description 1 /////////////// */
+
+
+.workDesc1{
+  height: 780px;
+  width: 650px;
+  /* border: 5px solid green; */
+  display: flex;
+  flex-direction: column;
+  padding-top:30px ;
+  gap: 20px;
+}
+
+.workDesc1ImgDiv{
+  width: 640px;
+  /* border: 5px solid black; */
+  height: 430px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+ 
+}
+
+
+.workDesc1Img{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  /* border: 5px solid blueviolet; */
+ 
+
+}
+
+
+.workDesc1DetailsDiv{
+  height: 200px;
+  width: 100%;
+  /* border: 5px solid blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.workDesc1Detail1{
+  font-size: 18px;
+  font-family: "Cormorant Unicase", serif;
+  font-style: italic;
+
+}
+
+.workDesc1Detail2{
+  font-size: 35px;
+  color: #FF5C00;
+  font-weight: 700;
+}
+
+.workDesc1DetailsButto{
+ 
+ 
+  color: #FF5C00;
+  font-size: 14px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.workDesc1DetailsButton{
+  position: relative;
+  margin-top: 50px;
+  height: 30px;
+  width: 80px;
+  border-radius: 50px;
+  border: 1px solid #FF5C00;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.workDesc1DetailsButton div{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 350%;
+  width: 100%;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  color:  black;
+}
+
+.workDesc1DetailsButtonP1{
+  width: 100%;
+  height: 30px;
+  display: flex;
+ 
+  justify-content: center;
+  align-items: center;
+  /* background-color: #FF5C00; */
+  flex-shrink: 0;
+  color: black;
+  border-radius: 50px;
+}
+
+.workDesc1DetailsButtonP{
+  width: 100%;
+  height: 30px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff5e00de;
+  color: black;
+  border-radius: 50px;
+}
+
+
+
+                        /* //////////////// Work Description 1 Ends /////////////// */
+
+
+
+                        /* //////////////// Work Description 2 /////////////// */
+
+
+
+.workDesc2{
+  padding-top: 120px;
+  height: 800px;
+  width: 650px;
+  /* border: 5px solid black; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.workDesc2ImgDiv{
+  width: 640px;
+  /* border: 5px solid black; */
+  height: 430px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+ 
+}
+
+
+.workDesc2Img{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  /* border: 5px solid blueviolet; */
+  
+}
+
+
+.workDesc2DetailsDiv{
+  height: 200px;
+  width: 100%;
+  /* border: 5px solid blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.workDesc2Detail1{
+  font-size: 18px;
+  font-family: "Cormorant Unicase", serif;
+  font-style: italic;
+
+}
+
+.workDesc2Detail2{
+  font-size: 35px;
+  color: #FF5C00;
+  font-weight: 700;
+}
+
+.workDesc2DetailsButto{
+ 
+ 
+  color: #FF5C00;
+  font-size: 14px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.workDesc2DetailsButton{
+  position: relative;
+  margin-top: 50px;
+  height: 30px;
+  width: 80px;
+  border-radius: 50px;
+  border: 1px solid #FF5C00;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.workDesc2DetailsButton div{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 350%;
+  width: 100%;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  color:  black;
+}
+
+.workDesc2DetailsButtonP1{
+  width: 100%;
+  height: 30px;
+  display: flex;
+ 
+  justify-content: center;
+  align-items: center;
+  /* background-color: #FF5C00; */
+  flex-shrink: 0;
+  color: black;
+  border-radius: 50px;
+}
+
+.workDesc2DetailsButtonP{
+  width: 100%;
+  height: 30px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff5e00de;
+  color: black;
+  border-radius: 50px;
+}
+
+
+                       /* //////////////// Work Description 2 Ends /////////////// */
+
+
+
+    /* ////////////////////////////////// First Work Section Ends ////////////////////////////////////////////  */
+
+
+
+
+
+   /* ////////////////////////////////// Second Work Section////////////////////////////////////////////  */  
+
+
+
+    .secondWorkRow{
+      height: 1350px;
+      width: 100%;
+      /* border: 5px solid #FF5C00; */
+      display: flex;
+      justify-content: space-evenly;
+      padding-left:50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      overflow: hidden;
+    }  
+     
+
+                            /* ////////////// Work 2 Description 1 //////////////// */
+
+
+
+    .work2Desc1{
+      height: 750px;
+      width: 650px;
+      /* border: 5px solid blue; */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top:30px ;
+      gap: 20px;
+    }
+    
+    .work2Desc1ImgDiv{
+      width: 540px;
+      /* border: 5px solid red; */
+      height: 500px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+     
+    }
+    
+    
+    .work2Desc1Img{
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+      /* border: 5px solid blueviolet; */
+     
+    
+    }
+    
+    
+    .work2Desc1DetailsDiv{
+      height: 200px;
+      width: 100%;
+      /* border: 5px solid blue; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    
+    .work2Desc1Detail1{
+      font-size: 18px;
+      font-family: "Cormorant Unicase", serif;
+      font-style: italic;
+    
+    }
+    
+    .work2Desc1Detail2{
+      font-size: 35px;
+      color: #FF5C00;
+      font-weight: 700;
+    }
+    
+    .work2Desc1DetailsButto{
+     
+     
+      color: #FF5C00;
+      font-size: 14px;
+      border-radius: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+    
+    .work2Desc1DetailsButton{
+      position: relative;
+      margin-top: 50px;
+      height: 30px;
+      width: 80px;
+      border-radius: 50px;
+      border: 1px solid #FF5C00;
+      font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      overflow: hidden;
+    }
+    
+    .work2Desc1DetailsButton div{
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 350%;
+      width: 100%;
+      border-radius: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      justify-content: center;
+      align-items: center;
+      color:  black;
+    }
+    
+    .work2Desc1DetailsButtonP1{
+      width: 100%;
+      height: 30px;
+      display: flex;
+     
+      justify-content: center;
+      align-items: center;
+      /* background-color: #FF5C00; */
+      flex-shrink: 0;
+      color: black;
+      border-radius: 50px;
+    }
+    
+    .work2Desc1DetailsButtonP{
+      width: 100%;
+      height: 30px;
+      flex-shrink: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #ff5e00de;
+      color: black;
+      border-radius: 50px;
+    }
+    
+    
+    
+                            /* //////////////// Work 2 Description 1 Ends /////////////// */
+    
+    
+    
+                            /* //////////////// Work 2 Description 2 /////////////// */
+    
+    
+    
+    .work2Desc2{
+      padding-top: 320px;
+      height: 1290px;
+      width: 650px;
+      /* border: 5px solid black; */
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      align-items: center;
+      
+    }
+    
+    .work2Desc2ImgDiv{
+      width: 500px;
+      /* border: 5px solid black; */
+      height: 740px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+     
+    }
+    
+    
+    .work2Desc2Img{
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+      /* border: 5px solid blueviolet; */
+      
+    }
+    
+    
+    .work2Desc2DetailsDiv{
+      height: 200px;
+      width: 100%;
+      /* border: 5px solid blue; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    
+    .work2Desc2Detail1{
+      font-size: 18px;
+      font-family: "Cormorant Unicase", serif;
+      font-style: italic;
+    
+    }
+    
+    .work2Desc2Detail2{
+      font-size: 35px;
+      color: #FF5C00;
+      font-weight: 700;
+    }
+    
+    .work2Desc2DetailsButto{
+     
+     
+      color: #FF5C00;
+      font-size: 14px;
+      border-radius: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+    
+    .work2Desc2DetailsButton{
+      position: relative;
+      margin-top: 50px;
+      height: 30px;
+      width: 80px;
+      border-radius: 50px;
+      border: 1px solid #FF5C00;
+      font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      overflow: hidden;
+    }
+    
+    .work2Desc2DetailsButton div{
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 350%;
+      width: 100%;
+      border-radius: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      justify-content: center;
+      align-items: center;
+      color:  black;
+    }
+    
+    .work2Desc2DetailsButtonP1{
+      width: 100%;
+      height: 30px;
+      display: flex;
+     
+      justify-content: center;
+      align-items: center;
+      /* background-color: #FF5C00; */
+      flex-shrink: 0;
+      color: black;
+      border-radius: 50px;
+    }
+    
+    .work2Desc2DetailsButtonP{
+      width: 100%;
+      height: 30px;
+      flex-shrink: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #ff5e00de;
+      color: black;
+      border-radius: 50px;
+    }
+    
+    
+                           /* //////////////// Work Description 2 Ends /////////////// */
+    
+    
+
+
+
+
+
+
+
+                        /* //////////////// Work Descriptions Responsivity /////////////// */
+
+
+
+@media (max-width:1366px) {
+
+  .firstWorkRow{
+    padding-left: 30px;
+    padding-right: 30px; 
+  }
+
+  .secondWorkRow{
+    padding-left: 30px;
+    padding-right: 30px; 
+  }
+
+  .workDesc1{
+    width: 600px;
+
+  }
+
+  .workDesc1ImgDiv{
+    width: 590px;
+    height: auto;
+  }
+
+
+  .workDesc2{
+    width: 600px;
+  }
+
+
+
+  .workDesc2ImgDiv{
+    width: 590px;
+    
+  }
+  
+  
+  
+
+
+}
+
+@media (max-width:1266px) {
+
+  .firstWorkRow{
+    padding-left: 30px;
+    padding-right: 30px; 
+  }
+
+  .secondWorkRow{
+    padding-left: 30px;
+    padding-right: 30px; 
+  }
+
+  .workDesc1{
+    width: 550px;
+    height: 700px;
+
+  }
+
+  .workDesc1ImgDiv{
+    width: 540px;
+  }
+
+
+  .workDesc2{
+    width: 550px;
+
+  }
+
+
+
+  .workDesc2ImgDiv{
+    width: 540px;
+    
+  }
+  
+}
+
+@media (max-width:1166px) {
+
+  .firstWorkRow{
+    padding-left: 30px;
+    padding-right: 30px; 
+  }
+ 
+
+  .workDesc1{
+    width: 500px;
+    height: 620px;
+
+  }
+
+
+  .workDesc1ImgDiv{
+    width: 490px;
+  }
+
+  
+
+  .workDesc2{
+    width: 500px;
+  }
+
+
+  .workDesc2ImgDiv{
+    width: 490px;
+    
+  } 
+
+
+  /* /// work 2 ///  */
+
+  .secondWorkRow{
+    padding-left: 30px;
+    padding-right: 30px; 
+  }
+
+
+  .work2Desc1{
+    width: 500px;
+
+  }
+
+
+  .work2Desc1ImgDiv{
+    width: 490px;
+  }
+
+
+  .work2Desc2{
+    width: 500px;
+  }
+
+  .work2Desc2ImgDiv{
+    width: 490px;
+  } 
+
+}
+
+@media (max-width:1066px) {
+
+  .firstWorkRow{
+    padding-left: 30px;
+    padding-right: 30px; 
+  }
+
+
+  .workDesc1{
+    width: 450px;
+    height: 560px;
+
+  }
+
+  .workDesc1ImgDiv{
+    width: 440px;
+  }
+
+
+  .workDesc2{
+    width: 450px;
+  }
+
+
+
+  .workDesc2ImgDiv{
+    width: 440px;
+    
+  }
+
+
+  /* //// work 2 /// */
+
+  .secondWorkRow{
+    padding-left: 30px;
+    padding-right: 30px; 
+  }
+  
+  .work2Desc1{
+    width: 450px;
+    height: 560px;
+
+  }
+
+  .work2Desc1ImgDiv{
+    width: 440px;
+  }
+
+
+  .work2Desc2{
+    width: 450px;
+  }
+
+
+
+  .work2Desc2ImgDiv{
+    width: 440px;
+    height: auto;
+    /* border: 5px solid black; */
+    
+  }
+  
+
+}
+
+@media (max-width:980px) {
+
+  .selectedWorks{
+    height: 5950px;
+    /* border: 4px solid green; */
+  }
+
+
+  .firstWorkRow{
+    height: 1600px;
+    padding-left: 50px;
+    padding-right: 50px; 
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
+  .workDesc1{
+    width: 650px;
+    height: 700px;
+
+  }
+
+  .workDesc1ImgDiv{
+    width: 640px;
+  }
+
+
+  .workDesc2{
+    width: 650px;
+  }
+
+
+
+  .workDesc2ImgDiv{
+    width: 640px;
+    
+  }
+
+  /* //// works  2 ///// */
+  
+  .secondWorkRow{
+    height: 1900px;
+    padding-left: 50px;
+    padding-right: 50px; 
+    padding-top: 70px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .work2Desc1{
+    width: 650px;
+    height: 750px;
+
+  }
+
+  .work2Desc1ImgDiv{
+    width: 540px;
+  }
+
+
+  .work2Desc2{
+    padding-top: 100px;
+    width: 650px;
+  }
+
+
+
+  .work2Desc2ImgDiv{
+    width: 500px;
+    
+  }
+
+
+
+
+
+}
+
+@media (max-width:820px) {
+  .selectedWorks{
+    height: 5750px;
+  }
+}
+
+
+@media (max-width:730px) {
+
+  
+
+  .firstWorkRow{
+    padding-left: 30px;
+    padding-right: 30px; 
+  }
+
+  .secondWorkRow{
+    padding-left: 30px;
+    padding-right: 30px; 
+  }
+
+  .workDesc1{
+    width: 600px;
+
+  }
+
+  .workDesc1ImgDiv{
+    width: 590px;
+    height: auto;
+  }
+
+
+  .workDesc2{
+    width: 600px;
+  }
+
+
+
+  .workDesc2ImgDiv{
+    width: 590px;
+    
+  }
+  
+}
+
+@media (max-width:630px) {
+
+  .selectedWorks{
+    height: 5550px;
+  }
+
+  .firstWorkRow{
+    padding-left: 30px;
+    padding-right: 30px; 
+    height:1500px ;
+  }
+
+  
+
+  .workDesc1{
+    width: 500px;
+
+  }
+
+  .workDesc1ImgDiv{
+    width: 490px;
+    height: auto;
+  }
+
+
+  .workDesc2{
+    width: 500px;
+  }
+
+
+
+  .workDesc2ImgDiv{
+    width: 490px;
+    height: auto;
+    
+  }
+
+
+  /* //// works 2 //// */
+
+  .secondWorkRow{
+    padding-left: 30px;
+    padding-right: 30px; 
+    height: 1900px;
+  }
+
+
+  .work2Desc1{
+    width: 500px;
+
+  }
+
+  .work2Desc1ImgDiv{
+    width: 490px;
+    height: auto;
+  }
+
+
+  .work2Desc2{
+    width: 500px;
+  }
+
+
+
+  .work2Desc2ImgDiv{
+    width: 490px;
+    height: auto;
+    
+  }
+
+
+  
+}
+
+@media (max-width:550px) {
+
+  .selectedWorks{
+    height: 4700px;
+  }
+
+  .firstWorkRow{
+    height: 1300px;
+    padding-left: 30px;
+    padding-right: 30px; 
+    justify-content: center;
+  }
+
+  
+
+  .workDesc1{
+    width: 400px;
+    height: 600px;
+
+  }
+
+  .workDesc1ImgDiv{
+    width: 390px;
+    height: auto;
+  }
+
+
+  .workDesc2{
+    width: 400px;
+    padding-top: 0;
+    height: 650px;
+  }
+
+
+
+  .workDesc2ImgDiv{
+    width: 390px;
+    height: auto;
+    
+  }
+
+
+  /* ///// work 2 //// */
+
+  .secondWorkRow{
+    height: 1600px;
+    padding-left: 30px;
+    padding-right: 30px; 
+    justify-content: center;
+    gap: 100px;
+  }
+
+
+  .work2Desc1{
+    width: 400px;
+    height: 600px;
+
+  }
+
+  .work2Desc1ImgDiv{
+    width: 390px;
+    height: auto;
+  }
+
+
+  .work2Desc2{
+    width: 400px;
+    padding-top: 0;
+   
+  }
+
+
+
+  .work2Desc2ImgDiv{
+    width: 390px;
+    height: auto;
+    
+  }
+
+  
+}
+
+
+@media (max-width:480px) {
+
+  .selectedWorks{
+    height: 4200px;
+  }
+
+  .showAll button{
+    display: block;
+  }
+
+  .firstWorkRow{
+    height: 1200px;
+    padding-left: 30px;
+    padding-right: 30px; 
+    justify-content: center;
+    gap: 50px;
+  }
+
+  
+
+  .workDesc1{
+    width: 300px;
+    height: 550px;
+
+  }
+
+  .workDesc1ImgDiv{
+    width: 290px;
+    height: auto;
+  }
+
+
+  .workDesc2{
+    width: 300px;
+    padding-top: 0;
+    height: 600px;
+  }
+
+
+
+  .workDesc2ImgDiv{
+    width: 290px;
+    height: auto;
+    
+  }
+
+
+  /* //// work 2 ///// */
+
+
+  .secondWorkRow{
+    height: 1350px;
+    padding-left: 30px;
+    padding-right: 30px; 
+    justify-content: center;
+   
+  }
+
+
+  .work2Desc1{
+    width: 300px;
+    height: 550px;
+
+  }
+
+  .work2Desc1ImgDiv{
+    width: 290px;
+    height:300px;
+  }
+
+
+  .work2Desc2{
+    width: 300px;
+    padding-top: 0;
+    height: 600px;
+  }
+
+
+
+  .work2Desc2ImgDiv{
+    width: 290px;
+    height: 600px;
+    
+  }
+
+
+  
+}
+
+/* //////////////// Work Descriptions Responsivity End /////////////// */
+
+
+.showAll{
+  height: 50px;
+  width: 100%;
+  /* border: 2px solid purple; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .showAllProject{
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+} */
+
+
+/* ////////////////////////////// Design Production Section //////////////////////////////////// */
+
+.designCompSec{
+  height: 900px;
+  width: 100%;
+  /* border: 5px solid blue; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+}
+
+.designCompDivs{
+  height:50px;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+}
+
+
+.middleImage{
+  height: 600px;
+  width: 400px;
+  /* border: 4px solid red; */
+  transition: ease-in-out;
+ 
+}
+
+@media (max-width:1300px) {
+  .middleImage{
+    height: 520px;
+    width: 350px;
+  }
+
+}
+
+@media (max-width:1000px) {
+  .middleImage{
+    height:445px;
+    width: 300px;
+  }
+
+}
+
+/* //////////////////////// Design Comp Text /////////////////////////////// */
+
+.designCompTextDiv{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 6;
+  transition: ease-in-out;
+}
+
+.desText{
+  width: 100%;
+  height: 200px;
+  font-size:150px ;
+  text-align: center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: #FF5C00;
+ font-weight: 700;
+}
+
+.prodText{
+  font-family: "Cormorant Unicase", serif;
+  font-style: italic;
+  width: 100%;
+  height: 200px;
+  font-size:150px ;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.miniText{
+  width: 100%;
+  height: 200px;
+  font-size:150px ;
+  text-align: center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: #FF5C00;
+ font-weight: 700;
+}
+
+.artText{
+  font-family: "Cormorant Unicase", serif;
+  font-style: italic;
+  width: 100%;
+  height: 200px;
+  font-size:150px ;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #d6d6ce;
+}
+
+.sinceText{
+  /* border: 5px solid blue; */
+  height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 10%;
+}
+
+.sinceText p{
+  height: 100%;
+  width: 275px;
+  /* border: 1px solid black; */
+  color: #FF5C00;
+}
+
+
+/* //////////////////// Design Comp Responsivity ////////////////////////// */
+
+
+@media (max-width:1024px) {
+
+  .designCompSec{
+    height: 720px;
+  }
+
+  .desText{
+    font-size: 100px;
+    height: 130px;
+
+  }
+
+  .prodText{
+    font-size: 100px;
+    height: 130px;
+  }
+
+  .miniText{
+    font-size: 100px;
+    height: 130px;
+  }
+
+  .artText{
+    font-size: 100px;
+    height: 130px;
+  }
+  
+}
+
+@media (max-width:700px) {
+
+  .designCompSec{
+    height: 700px;
+  }
+
+  .middleImage1 {
+    display: none;
+  }
+
+  .middleImage2 {
+    display: none;
+  }
+
+  .middleImage3 {
+    display: none;
+  }
+
+  .middleImage4 {
+    display: none;
+  }
+
+
+  .desText{
+    font-size: 70px;
+    height: 100px;
+
+  }
+
+  .prodText{
+    font-size: 70px;
+    height: 100px;
+  }
+
+  .miniText{
+    font-size: 70px;
+    height: 100px;
+  }
+
+  .artText{
+    font-size: 70px;
+    height: 100px;
+  }
+  
+}
+
+@media (max-width:480px) {
+
+  
+  .desText{
+    font-size: 50px;
+
+  }
+
+  .prodText{
+    font-size: 50px;
+  }
+
+  .miniText{
+    font-size: 50px;
+  }
+
+  .artText{
+    font-size: 50px;
+  }
+  
+}
+
+.bottomPos{
+  position: absolute;
+  bottom: 50px;
+  
+}
+
+/* /////////////////////////////////// Design Comp Ends ////////////////////////// */
+
+
+
+/* /////////////////////////////// Mastery / skills sec //////////////////////////// */
+
+
+.expertiseSec{
+  height: 1500px;
+  width: 100%;
+  padding-top: 50px;
+  /* border: 5px solid goldenrod; */
+}
+
+
+.masterSkill{
+  /* border: 5px solid palevioletred; */
+  height: 1000px;
+  width: 100%;
+  padding-left:5%;
+  padding-right: 5%;
+}
+
+.masterSkillDiv{
+  height: 200px;
+  width: 100%;
+  border-top: 1px solid #FF5C00;
+  border-bottom: 1px solid #FF5C00;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* overflow: hidden; */
+
+}
+
+
+.skillsHeader{
+  height: 90%;
+  width: 650px;
+  /* border:1px solid black; */
+
+  display: flex;
+  align-items: center;
+  
+}
+
+.skillsItemsDiv{
+  height: 90%;
+  width: 650px;
+  /* border:1px solid black; */
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 20px;
+  font-family: "Cormorant Unicase", serif;
+  font-style:italic;
+
+}
+
+.masterSkillP1{
+  font-size: 40px;
+  color: #FF5C00;
+}
+
+.masterSkillP1:hover{
+  font-family: "Cormorant Unicase", serif;
+  font-style:italic;
+}
+
+/* ///////////////// Mastery / skills Responsivity ///////////////////// */
+
+@media (max-width:600px) {
+
+  .masterSkillDiv{
+    flex-direction: column;
+    height: 270px;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .skillsHeader{
+    height: 50px;
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .skillsItemsDiv{
+    width: 100%;
+    height: 150px;
+  }
+
+}
+
+
+
+/* //////////////////////////////  Contact think Sec  ////////////////////////// */
+
+
+.contactThinkAlphaSec{
+  height: 120vh;
+  width: 100%;
+  overflow: hidden;
+  /* border: 1px solid black; */
+ 
+}
+
+
+.contactThinkHome{
+  height:100% ;
+  width: 100%;
+  /* border: 5px solid blueviolet; */
+  transition: ease-in-out;
+  
+}
+
+.thinkImageAlpha{
+  height:33.3%;
+  width: 100%;
+  /* border: 2px solid red; */
+ display: flex;
+
+}
+
+.thinkImageAlpha div{
+  height: 100%;
+  width: 33vw;
+  /* border: 2px solid black; */
+ position: relative;
+ flex-shrink: 0;
+
+}
+
+
+
+
+.thinkTextDiv{
+  position: absolute;
+  /* border: 2px solid black; */
+  height: 100%;
+  width: 100%;
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.thinkText{
+  width: 100%;
+  height: 200px;
+  font-size:150px ;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FF5C00;
+  font-weight: 700;
+}
+
+
+.moreText{
+  font-family: "Cormorant Unicase", serif;
+  font-style: italic;
+  width: 100%;
+  height: 200px;
+  font-size:150px ;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.designText{
+  width: 100%;
+  height: 200px;
+  font-size:150px ;
+  text-align: center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: #FF5C00;
+ font-weight: 700;
+}
+
+.lessText{
+  font-family: "Cormorant Unicase", serif;
+  font-style: italic;
+  width: 100%;
+  height: 200px;
+  font-size:150px ;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #d6d6ce;
+}
+
+
+@media (max-width:1920px) {
+
+  /* .contactThinkAlphaSec{
+    width: 100%;
+  } */
+
+  .thinkImageAlpha div{
+    width: 650px;
+  }
+
+  
+}
+
+
+@media (max-width:1650px) {
+  .thinkImageAlpha div{
+    width: 520px;
+  }
+}
+
+
+@media (max-width:1350px) {
+
+  .contactThinkAlphaSec{
+    height: 800px;
+  }
+
+  .thinkImageAlpha div{
+    width: 440px;
+  }
+}
+
+@media (max-width:1250px) {
+
+  .contactThinkAlphaSec{
+    height: 750px;
+  }
+
+  .thinkImageAlpha div{
+    width: 420px;
+  }
+}
+
+@media (max-width:1150px) {
+
+  .contactThinkAlphaSec{
+    height: 700px;
+  }
+
+  .thinkImageAlpha div{
+    width: 380px;
+  }
+}
+
+@media (max-width:1100px) {
+
+  .contactThinkAlphaSec{
+    height: 650px;
+  }
+
+  .thinkImageAlpha div{
+    width: 380px;
+  }
+}
+
+
+
+@media (max-width:1050px) {
+
+  .contactThinkAlphaSec{
+    height: 650px;
+  }
+
+  .thinkImageAlpha div{
+    width: 360px;
+  }
+}
+
+@media (max-width:1000px) {
+
+  .contactThinkAlphaSec{
+    height: 600px;
+  }
+  .thinkImageAlpha div{
+    width: 330px;
+  }
+}
+
+@media (max-width:950px) {
+
+  .contactThinkAlphaSec{
+    height: 550px;
+  }
+  .thinkImageAlpha div{
+    width: 320px;
+  }
+}
+
+@media (max-width:900px) {
+
+  .contactThinkAlphaSec{
+    height: 500px;
+  }
+  .thinkImageAlpha div{
+    width: 300px;
+  }
+}
+
+@media (max-width:850px) {
+
+  .contactThinkAlphaSec{
+    height: 450px;
+  }
+  .thinkImageAlpha div{
+    width: 280px;
+  }
+}
+
+@media (max-width:800px) {
+
+  .contactThinkAlphaSec{
+    height: 450px;
+  }
+  .thinkImageAlpha div{
+    width: 270px;
+  }
+}
+
+@media (max-width:750px) {
+
+  .contactThinkAlphaSec{
+    height: 450px;
+  }
+  .thinkImageAlpha div{
+    width: 250px;
+  }
+}
+
+@media (max-width:700px) {
+
+  .contactThinkAlphaSec{
+    height: 400px;
+  }
+  .thinkImageAlpha div{
+    width: 225px;
+  }
+}
+
+@media (max-width:650px) {
+
+  .contactThinkAlphaSec{
+    height: 400px;
+  }
+  .thinkImageAlpha div{
+    width: 215px;
+  }
+}
+
+/* @media (max-width:600px) {
+
+  .contactThinkAlphaSec{
+    height: 400px;
+  }
+  .thinkImageAlpha div{
+    width: 205px;
+  }
+} */
+
+
+
+
+
+@media (max-width:620px) {
+
+  .contactThinkAlphaSec{
+    height: 1000px;
+  }
+
+  .thinkImageAlpha div{
+    width: 610px;
+  }
+
+  .thinkImageAlpha{
+    justify-content: center;
+  }
+
+  .thinkImageAlpha div{
+    
+  }
+
+
+
+  .ThinkImgDiv1, .ThinkImgDiv3, .ThinkImgDiv4, .ThinkImgDiv6, .ThinkImgDiv7, .ThinkImgDiv9{
+    display: none;
+  }
+}
+
+@media (max-width:520px) {
+  .contactThinkAlphaSec{
+    height: 900px;
+  }
+
+  .thinkImageAlpha div{
+    width: 510px;
+  } 
+}
+
+@media (max-width:520px) {
+  .contactThinkAlphaSec{
+    height: 900px;
+  }
+
+  .thinkImageAlpha div{
+    width: 510px;
+  } 
+}
+
+@media (max-width:430px) {
+  .contactThinkAlphaSec{
+    height: 800px;
+  }
+
+  .thinkImageAlpha div{
+    width: 420px;
+  } 
+}
+
+
+
+

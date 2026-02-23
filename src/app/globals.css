@@ -1,0 +1,351 @@
+@import "tailwindcss";
+
+
+
+/*///////////////////////////////// defaults  //////////////////////////////*/
+
+html{
+  scroll-behavior: smooth;
+  /* overflow-x: hidden; */
+  background-color: #d6d6ce;
+
+}
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* //////////////////////// Header Styles ////////////////////////////////////// */
+
+
+header{
+  height: 80px;
+  width: 100%;
+  background-color:#d6d6ce;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.logo{
+  /* border: 1px solid black; */
+  flex-shrink: 0;
+
+}
+
+.headerStrecher{
+  height: 80%;
+  width: 75%;
+  
+
+}
+
+
+.contactAndHamburger{
+  height: 80%;
+  width: 200px;
+  /* border: 1px solid black; */
+  flex-shrink: 0;
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.contactHeader{
+  position: relative;
+  height: 50px;
+  width: 170px;
+  border-radius: 50px;
+  background-color: #FF5C00;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.contactHeader div{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 300%;
+  width: 100%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  color:  black;
+}
+
+.contactHeaderP{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff24;
+
+  color: black;
+  border-radius: 50px;
+}
+
+
+.hamburger{
+  background-color: white;
+  border-radius: 50%;
+  height: 48px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width:480px) {
+
+  .contactAndHamburger{
+    justify-content: flex-end;
+  }
+
+  .contactHeader{
+    display: none;
+  }
+}
+
+
+/* ///////////////////////////////// footer styles ///////////////////////////// */
+
+
+
+footer{
+  /* border: 3px solid blue; */
+  width: 100%;
+  height: 950px;
+  padding-top: 70px;
+  background-color: #FF5C00;
+}
+
+.footerUpperAlpha{
+  width: 100%;
+  height: 400px;
+  /* border: 2px solid red; */
+  display: flex;
+  padding: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerLogo{
+  height: 380px;
+  width: 300px;
+  /* border: 1px solid black; */
+}
+
+.footerNav{
+  height: 380px;
+  width: 600px;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+
+}
+
+
+.footerNav p{
+  font-size: 70px;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+}
+
+.footerNav p:hover{
+  font-style: italic;
+  font-family: "Cormorant Unicase", serif;
+ 
+    font-style:italic;
+
+}
+
+.footerNav p:hover::before{
+   content: " ";
+   position: absolute;
+   height: 10px;
+   width: 10px;
+   top:50px;
+   left: -25px;
+
+   border-radius: 50%;
+   background-color: black;
+}
+
+
+
+.footerNav p:hover::after{
+  content: " ";
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  top:50px;
+  right: -25px;
+
+  border-radius: 50%;
+  background-color: black;
+}
+
+
+
+
+
+.footerButtons{
+  height: 380px;
+  width: 300px;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+.contactFooter{
+  position: relative;
+  height: 50px;
+  width: 200px;
+  border-radius: 50px;
+  border: 1px solid black;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.contactFooter div{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 300%;
+  width: 100%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  color:  black;
+}
+
+.contactFooterP{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff24;
+  color: black;
+  border-radius: 50px;
+}
+
+
+/* /////////////////////////// second footer section //////////////////////////////////// */
+
+.iLoveSec{
+  height: 175px;
+  width: 100%;
+  padding: 50px;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-style: italic;
+  
+
+}
+
+/* ///////////////////////////////////////////// marquee Section //////////////////////////////// */
+
+.theMarque{
+  overflow: hidden;
+  width: 100%;
+}
+
+.marqueeSec{
+  height: 290px;
+
+  width: 100%;
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+
+  white-space: nowrap;
+}
+
+.marqueeSec p{
+  font-size: 250px;
+  width: 100%;
+}
+
+.theMarque p span{
+  font-family: "Cormorant Unicase", serif;
+  font-weight: 300;
+  font-style:italic;
+}
+
+@media (max-width:900px) {
+  footer{
+    height: 1750px;
+    /* border: 1px solid blue; */
+  }
+  .footerUpperAlpha{
+    height: 1100px;
+    flex-direction: column;
+    /* border: 2px solid black; */
+  }
+
+  .footerNav{
+    width: 100%;
+  }
+
+  .footerButtons{
+    margin-top: 100px;
+
+    align-items: center;
+  }
+
+}
+
+@media (max-width:645px) {
+  .iLoveSec{
+    flex-direction: column;
+  }
+
+  .marqueeSec p{
+    font-size: 200px;
+  }
+}
+
+@media (max-width:480px) {
+  .iLoveSec{
+    height: 250px;
+    text-align: center;
+  }
+
+  .marqueeSec p{
+    font-size: 150px;
+  }
+}
+
+
+
+
