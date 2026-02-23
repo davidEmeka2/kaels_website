@@ -1,5 +1,5 @@
 "use client"
-import Image from "next/image";
+
 import HeroComp from "./Components/Home-comps/HeroComp";
 import SubHeadline from "./Components/Home-comps/SubHeadline";
 import SelectedWorks from "./Components/Home-comps/SelectedWorks"
@@ -7,7 +7,7 @@ import DesignComp from "./Components/Home-comps/DesignComp";
 import Expertise from "./Components/Home-comps/Expertise";
 import ContactHomeComp from "./Components/Home-comps/ContactHomeComp";
 import Lenis from 'lenis'
-import { useEffect, useRef } from "react";
+import { useEffect } from "react";
 
 
 
