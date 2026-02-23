@@ -71,7 +71,7 @@ function HeroComp() {
 
       <div className='im'> <p
     
-      >I&apos;m happy</p> </div>
+      >I&apos;m</p> </div>
 
      
 
